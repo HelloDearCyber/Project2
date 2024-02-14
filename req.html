@@ -9,6 +9,7 @@
     <title>YOUR NAME | {{file_name}}</title>
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="stylesheet" href="https://HelloDearCyber.github.io/Resouce/StreamCSS.css">
+<!--     <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://HelloDearCyber.github.io/Resouce/playerCss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,20 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .log-err {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            width: auto;
+            height: auto;
+            padding: 20px;
+            border-radius: 5px;
+            background: linear-gradient(to bottom, rgba(52, 52, 52, 0.301), rgba(153, 153, 153, 0.075));
+        }
+    </style>
 </head>
 <!-- this code is written by @biisal tg:biisal-files  -->
 <!-- stealing credit doesn't make you developer..so try to give full credit to the developer 😊 u will not loose anything for giving proper credit.   -->
@@ -50,6 +65,11 @@
                 <video id="player" class="player" src="{{file_url}}" type="video/mp4" playsinline controls
                     width="100%"></video>
                 <div class="player"></div>
+                <div class="log-err">
+                    <h4>Video Not playing ? possibly because your browser or the player doesn't support codec.please
+                        download and watch :D </h4>
+
+                </div>
                 <div class="file-name">
                     <h4>File name : </h4>
                     <br>
@@ -74,6 +94,7 @@
                                 Grab
                                 your snacks, sit back, and <span>enjoy</span> the show!
                             </p>
+                            <img style="height:200px" src="https://i.postimg.cc/59X5k8L1/personal.png" alt="">
                         </div>
                         <div class="abt-sec" id="sec2">
                             <h1>OUR ALL <span>CHANNELS</span> LIST</h1>
